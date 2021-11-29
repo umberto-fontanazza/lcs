@@ -27,6 +27,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/DSC_0666-3_25.jpg",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
@@ -76,7 +77,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Ultime partite",
-        "collection": "all",
+        "collection": "frontpage",
         "products_to_show": 6,
         "show_view_all": true,
         "swipe_on_mobile": true,

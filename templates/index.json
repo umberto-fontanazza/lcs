@@ -100,27 +100,28 @@
             "image_padding": false
           }
         },
-        "collection": {
-          "type": "collection",
+        "2d249470-1622-40ef-befa-30239a69317d": {
+          "type": "image",
           "settings": {
-            "collection": "",
+            "image": "shopify:\/\/shop_images\/shallow-depth-photo-of-soccer-net.jpg",
             "image_padding": false,
             "color_scheme": "background-1"
           }
         },
-        "c280e33c-bc4f-454c-8a36-e29115a3afe6": {
-          "type": "collection",
+        "f4ee16fc-bc10-406e-bd1d-29d916b5a095": {
+          "type": "product",
           "settings": {
-            "collection": "",
+            "product": "",
+            "second_image": false,
             "image_padding": false,
-            "color_scheme": "background-1"
+            "secondary_background": false
           }
         }
       },
       "block_order": [
         "video",
-        "collection",
-        "c280e33c-bc4f-454c-8a36-e29115a3afe6"
+        "2d249470-1622-40ef-befa-30239a69317d",
+        "f4ee16fc-bc10-406e-bd1d-29d916b5a095"
       ],
       "settings": {
         "heading": "Multimedia collage",
@@ -177,6 +178,19 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "1638207738e90b776e": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Ultime partite",
+        "blog": "notizie",
+        "post_limit": 3,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "soft_background": false,
+        "show_view_all": true
+      }
     }
   },
   "order": [
@@ -185,6 +199,7 @@
     "featured_products",
     "collage",
     "video",
-    "multi_column"
+    "multi_column",
+    "1638207738e90b776e"
   ]
 }

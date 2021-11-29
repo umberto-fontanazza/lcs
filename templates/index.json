@@ -108,7 +108,8 @@
         "video": {
           "type": "video",
           "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "cover_image": "shopify:\/\/shop_images\/spot2019.jpg",
+            "video_url": "https:\/\/youtu.be\/VLtFeVS13DE",
             "description": "Describe the video",
             "image_padding": false
           }
@@ -137,7 +138,7 @@
         "f4ee16fc-bc10-406e-bd1d-29d916b5a095"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "Promo",
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
@@ -178,7 +179,7 @@
         "image_ratio": "adapt",
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
       }

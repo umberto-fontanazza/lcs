@@ -73,15 +73,28 @@
         "full_width": true
       }
     },
+    "1638207738e90b776e": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Ultime partite",
+        "blog": "partite",
+        "post_limit": 3,
+        "show_image": true,
+        "show_date": true,
+        "show_author": true,
+        "soft_background": false,
+        "show_view_all": true
+      }
+    },
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Ultime partite",
+        "title": "Prossimi eventi",
         "collection": "frontpage",
-        "products_to_show": 6,
+        "products_to_show": 4,
         "show_view_all": true,
         "swipe_on_mobile": true,
-        "image_ratio": "square",
+        "image_ratio": "portrait",
         "show_secondary_image": true,
         "add_image_padding": false,
         "show_image_outline": true,
@@ -129,15 +142,6 @@
         "mobile_layout": "collage"
       }
     },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false
-      }
-    },
     "multi_column": {
       "type": "multicolumn",
       "blocks": {
@@ -178,28 +182,14 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
-    },
-    "1638207738e90b776e": {
-      "type": "featured-blog",
-      "settings": {
-        "heading": "Ultime partite",
-        "blog": "partite",
-        "post_limit": 3,
-        "show_image": true,
-        "show_date": true,
-        "show_author": true,
-        "soft_background": false,
-        "show_view_all": true
-      }
     }
   },
   "order": [
     "image_banner",
     "rich_text",
+    "1638207738e90b776e",
     "featured_products",
     "collage",
-    "video",
-    "multi_column",
-    "1638207738e90b776e"
+    "multi_column"
   ]
 }

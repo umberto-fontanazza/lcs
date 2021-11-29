@@ -44,20 +44,20 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "ANNULLATA EDIZIONE 2021",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>A causa dell'emergenza sanitaria l'organizzazione ha deciso di annullare l'edizione 2021 della Mole Cup<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Leggi il comunicato",
             "button_link": "",
             "button_style_secondary": false
           }
@@ -69,7 +69,7 @@
         "button"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "full_width": true
       }
     },
@@ -100,16 +100,15 @@
             "image_padding": false
           }
         },
-        "product": {
-          "type": "product",
+        "collection": {
+          "type": "collection",
           "settings": {
-            "product": "",
-            "second_image": false,
+            "collection": "",
             "image_padding": false,
-            "secondary_background": false
+            "color_scheme": "background-1"
           }
         },
-        "collection": {
+        "c280e33c-bc4f-454c-8a36-e29115a3afe6": {
           "type": "collection",
           "settings": {
             "collection": "",
@@ -120,8 +119,8 @@
       },
       "block_order": [
         "video",
-        "product",
-        "collection"
+        "collection",
+        "c280e33c-bc4f-454c-8a36-e29115a3afe6"
       ],
       "settings": {
         "heading": "Multimedia collage",
@@ -144,22 +143,22 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "title": "Ufficio stampa",
+            "text": "<p>MATTIA CIVITICO<\/p><p>ufficiostampa@legacalciostudenti.com<\/p><p><strong>+39 333 963 3886<\/strong><\/p>"
           }
         },
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "title": "Direzione operativa",
+            "text": "<p>GABRIELE FRANZON<\/p><p><strong>+39 345 986 8777<\/strong><\/p>"
           }
         },
         "column3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "title": "Direzione commerciale",
+            "text": "<p>VITTORIO CASTOLDI<\/p><p>marketing@legcalciostudenti.com<\/p><p><strong>+39 346 305 9470<\/strong><\/p>"
           }
         }
       },
@@ -169,7 +168,7 @@
         "column3"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "Informazioni",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",

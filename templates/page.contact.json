@@ -1,17 +1,108 @@
 {
   "sections": {
     "main": {
-      "type": "main-page"
-    },
-    "form": {
-      "type": "contact-form",
+      "type": "main-page",
       "settings": {
-        "heading": ""
+      }
+    },
+    "163837512794182edc": {
+      "type": "multicolumn",
+      "blocks": {
+        "16383751279aaf3904-0": {
+          "type": "column",
+          "settings": {
+            "title": "MATTIA CIVITICO",
+            "text": "<p>UFFICIO STAMPA<\/p><p>ufficiostampa@legacalciostudenti.com<\/p><p><strong>+39 333 963 3886<\/strong><\/p>"
+          }
+        },
+        "16383751279aaf3904-1": {
+          "type": "column",
+          "settings": {
+            "title": "GABRIELE FRANZON",
+            "text": "<p>DIREZIONE OPERATIVA<\/p><p><strong>+39 345 986 8777<\/strong><\/p>"
+          }
+        },
+        "16383751279aaf3904-2": {
+          "type": "column",
+          "settings": {
+            "title": "VITTORIO CASTOLDI",
+            "text": "<p>DIREZIONE COMMERCIALE<\/p><p>marketing@legacalciostudenti.com<\/p><p><strong>+39 346305 9470<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16383751279aaf3904-0",
+        "16383751279aaf3904-1",
+        "16383751279aaf3904-2"
+      ],
+      "settings": {
+        "title": "Il nostro staff",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "1638375429c33500fe": {
+      "type": "rich-text",
+      "blocks": {
+        "163837542922ef37d8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sede legale",
+            "heading_size": "h2"
+          }
+        },
+        "163837542922ef37d8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Via Don Minzoni 14, Torino, 10121<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163837542922ef37d8-0",
+        "163837542922ef37d8-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1638375704d01b0feb": {
+      "type": "rich-text",
+      "blocks": {
+        "16383757041a6c7efb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contatti mail",
+            "heading_size": "h1"
+          }
+        },
+        "16383757041a6c7efb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>infomolecup@legacalciostudenti.com<\/p><p>infoduomocup@legacalciostudenti.com<\/p><p>molecup@pec.it<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16383757041a6c7efb-0",
+        "16383757041a6c7efb-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
       }
     }
   },
   "order": [
     "main",
-    "form"
+    "163837512794182edc",
+    "1638375429c33500fe",
+    "1638375704d01b0feb"
   ]
 }

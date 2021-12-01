@@ -5,6 +5,32 @@
       "settings": {
       }
     },
+    "1638375704d01b0feb": {
+      "type": "rich-text",
+      "blocks": {
+        "16383757041a6c7efb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contatti mail",
+            "heading_size": "h2"
+          }
+        },
+        "16383757041a6c7efb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>infomolecup@legacalciostudenti.com<\/p><p>infoduomocup@legacalciostudenti.com<\/p><p>molecup@pec.it<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16383757041a6c7efb-0",
+        "16383757041a6c7efb-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "163837512794182edc": {
       "type": "multicolumn",
       "blocks": {
@@ -71,38 +97,12 @@
         "color_scheme": "background-1",
         "full_width": true
       }
-    },
-    "1638375704d01b0feb": {
-      "type": "rich-text",
-      "blocks": {
-        "16383757041a6c7efb-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Contatti mail",
-            "heading_size": "h1"
-          }
-        },
-        "16383757041a6c7efb-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>infomolecup@legacalciostudenti.com<\/p><p>infoduomocup@legacalciostudenti.com<\/p><p>molecup@pec.it<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "16383757041a6c7efb-0",
-        "16383757041a6c7efb-1"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
     }
   },
   "order": [
     "main",
+    "1638375704d01b0feb",
     "163837512794182edc",
-    "1638375429c33500fe",
-    "1638375704d01b0feb"
+    "1638375429c33500fe"
   ]
 }

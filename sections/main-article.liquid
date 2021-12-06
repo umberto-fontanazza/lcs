@@ -48,7 +48,22 @@
         {%- when 'content'-%}
           <div class="article-template__content page-width page-width--narrow rte" itemprop="articleBody" {{ block.shopify_attributes }}>
               {{ article.content }}
+              {% for tag in article.tags %}
+                {% if tag contains '/v/' %}
+                {% assign video_tag = tag | remove_first: "/v/" %}
+                  <div>
+                    <h2>
+                      Highlight
+                    </h2>
+                    <div class='embed-container'>
+                      
+                      <iframe src='https://www.youtube.com/embed/{{ video_tag }}?playlist={{ video_tag }}&loop=1' frameborder='0' allowfullscreen></iframe>
+                    </div>
+                  </div>
+                {% endif %}
+              {% endfor %}
           </div>
+          
 
         {%- when 'share' -%}
           <div class="article-template__social-sharing page-width page-width--narrow" {{ block.shopify_attributes }}>
@@ -243,6 +258,23 @@
   </div>
   {%- endif -%}
 </article>
+
+<style>
+.embed-container { 
+  position: relative; 
+  padding-bottom: 56.25%; 
+  height: 0; 
+  overflow: hidden; 
+  max-width: 100%; 
+} 
+.embed-container iframe, .embed-container object, .embed-container embed { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+  }
+</style>
 
 <script type="application/ld+json">
   {
